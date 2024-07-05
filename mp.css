@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(214, 214, 116);
+}
+
+header {
+  display: flex;
+}
+
+#header {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 1px;
+  margin-bottom: 12px;
+
+  /* margin: 40px; */
+  /* margin: 20px 10px 1px 12px; */
+}
+
+.header-1 {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.section {
+  /* background-color: aquamarine; */
+  display: flex;
+  /* margin: auto; */
+}
+.padd-1 {
+  margin-right: 20px;
+  background-color: blueviolet;
+
+  /*padding: 20px 10px 1px 12px; */
+  /* padding: 20px; */
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.padd-2 {
+  background-color: aqua;
+  padding: 20px 10px 1px 12px;
+}
